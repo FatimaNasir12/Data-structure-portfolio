@@ -1,5 +1,5 @@
 # data-science-portfolio
-Fatima NAsir
+Fatima Nasir
 Data Science Student  
 UNC Charlotte
 ## About Me
