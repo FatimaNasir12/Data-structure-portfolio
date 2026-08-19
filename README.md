@@ -1,4 +1,4 @@
-# Data-structure-portfolio
+# data-science-portfolio
 Fatima NAsir
 Data Science Student  
 UNC Charlotte
