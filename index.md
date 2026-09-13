@@ -35,6 +35,7 @@ I used:
 - [Projects](projects.md)
 - [Resume](resume.md)
 - [Blog](blog.md)
+- [LinkedIn](https://www.linkedin.com/in/fatima-nasir-1497b43a8/)
 
 ---
 
