@@ -74,6 +74,6 @@ This project helped me practice collecting, cleaning, combining, and analyzing r
 
 ### Project Files
 
-[View the Project Notebook](EV_project1.ipynb)
+[View the Project Notebook](https://github.com/FatimaNasir12/Data-structure-portfolio/blob/main/EV_project1.ipynb)
 
 [View My GitHub Repository](https://github.com/FatimaNasir12/Data-structure-portfolio)
