@@ -3,64 +3,141 @@
 
 @import "{{ site.theme }}";
 
-
-/* Custom portfolio styling */
+/* Overall page */
 
 body {
-  background-color: #f7f9fc;
-  color: #243447;
+  background: #f4f7fb;
+  color: #263238;
   font-family: Arial, sans-serif;
   line-height: 1.6;
 }
 
+/* Main portfolio layout */
+
 .wrapper {
   max-width: 1100px;
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 40px;
 }
 
+/* Left sidebar */
+
 header {
-  background-color: #ffffff;
+  float: none;
+  width: auto;
+  position: static;
+  background: #ffffff;
   padding: 30px;
-  border-radius: 12px;
-  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+  border-radius: 14px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+  align-self: start;
 }
 
 header h1 {
   color: #1769aa;
+  font-size: 30px;
+  line-height: 1.1;
+  margin-bottom: 15px;
 }
 
-h1, h2, h3 {
+header p {
+  color: #667085;
+}
+
+/* Main content */
+
+section {
+  float: none;
+  width: auto;
+  margin: 0;
+  padding: 40px;
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+}
+
+/* Headings */
+
+h1,
+h2,
+h3 {
   color: #17365d;
 }
 
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  margin-top: 30px;
+}
+
+h3 {
+  margin-top: 24px;
+}
+
+/* Links */
+
 a {
   color: #1769aa;
+  text-decoration: none;
 }
 
 a:hover {
-  color: #0d47a1;
+  text-decoration: underline;
 }
 
-section {
-  background-color: #ffffff;
-  padding: 30px;
-  margin-bottom: 25px;
-  border-radius: 12px;
-  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.06);
+/* Lists */
+
+li {
+  margin-bottom: 6px;
 }
 
-blockquote {
-  border-left: 4px solid #1769aa;
-  padding-left: 15px;
-  background-color: #eef6fc;
+/* Project emphasis */
+
+section h2:first-of-type {
+  border-bottom: 2px solid #e5edf5;
+  padding-bottom: 10px;
 }
 
-code {
-  border-radius: 5px;
+/* Buttons/links */
+
+header a {
+  font-weight: 600;
 }
 
-@media screen and (max-width: 700px) {
-  header,
+/* Footer */
+
+footer {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 10px;
+  color: #667085;
+}
+
+/* Mobile layout */
+
+@media screen and (max-width: 800px) {
+  .wrapper {
+    display: block;
+    margin: 20px;
+  }
+
+  header {
+    margin-bottom: 25px;
+  }
+
   section {
-    padding: 20px;
+    padding: 25px;
+  }
+
+  header h1 {
+    font-size: 26px;
+  }
+
+  h1 {
+    font-size: 30px;
   }
 }
